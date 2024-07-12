@@ -18,22 +18,22 @@ This github provides getting started guide for both Round and Square 2x2 Display
 - Buzzer which helps to add audio alert for your project
 
 ### Specifications:
-- Microcontroller: [Raspberry Pi Pico W](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/pico-w-datasheet.pdf)
-- Connectivity: WiFi & BLE
-- Memory: 264kB on-chip SRAM, 2MB on-board QSPI flash
-- Supply Voltage: 5V
-- Operating pin voltage: 3.3V
-- Display: 
+- **Microcontroller:** [Raspberry Pi Pico W](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/pico-w-datasheet.pdf)
+- **Connectivity:** WiFi & BLE
+- **Memory:** 264kB on-chip SRAM, 2MB on-board QSPI flash
+- **Supply Voltage:** 5V
+- **Operating pin voltage:** 3.3V
+- **Display:** 
   - Display Size: 1.54” (Square), 1.28” (Round) 
   - Display Type: IPS TFT 
   - Display Resolution:  240 x 240 pixels
   - Display colors: 65K RGB
   - Display interface: SPI
-  - Display Driver: ST7789V (Square), GC9A01A (Round)
-- Sensor: [BME280](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/BME280-Datasheet.pdf) for Temperature, Pressure & Relative Humidity
-- RTC Chip: [DS3231SN](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/ds3231.pdf)
-- RTC Battery Holder: Supports CR1220 3V Battery 
-- Operating Temperature Range: -20°C ~ +70°C
+  - Display Driver: **ST7789V** (Square), **GC9A01A** (Round)
+- **Sensor**: [BME280](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/BME280-Datasheet.pdf) for Temperature, Pressure & Relative Humidity
+- **RTC Chip**: [DS3231SN](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/ds3231.pdf)
+- **RTC Battery Holder**: Supports CR1220 3V Battery 
+- **Operating Temperature Range**: -20°C ~ +70°C
 
 
 
