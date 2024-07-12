@@ -38,20 +38,19 @@ This github provides getting started guide for both Round and Square 2x2 Display
 
 ## Getting Started with 2x2 Display with Pico W
 ### Pinout
-<img src= "" />
+<img src= "https://cdn.shopify.com/s/files/1/1217/2104/files/PICO_PINOUTS.png?v=1720594449" />
   
 ### Interfacing Details
-
-
+Following GPIO pins of Raspberry Pi Pico W is used for onboard components,
 
 
      
 
 ### Example Codes
    Try reference demo codes to test onboard components of HAT, make sure to save library file to run Serial Servo Motor related codes.
-   - [Display Demo Code](https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/examples/Demo_Display.py) : Visualize onboard display working with sample code
+   - [Display Demo Code]() : Visualize onboard display working with sample code
    - [BME280 Demo Code]() : BME280 sensor to read Temperature, humidity and pressure demo 
-   - [RTC Demo](https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/examples/Demo_Servo_mode.py) : Set and monitor real time clock activity 
+   - [RTC Demo]() : Set and monitor real time clock activity 
    - [More..]()
 
    Using this sample code as a guide, you can modify, build, and share codes!!
