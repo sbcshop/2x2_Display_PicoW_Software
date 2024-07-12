@@ -1,1 +1,1 @@
-# 2x2_Display_PicoW
+# 2x2_Display_PicoW_Software
