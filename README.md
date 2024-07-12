@@ -8,6 +8,7 @@ This github provides getting started guide for both Round and Square 2x2 Display
 
 ### Features:
 - Powered by Raspberry Pi  Pico W microcontroller which is having Dual-core Arm Cortex-M0+ processor, running up to 133 MHz
+- Four Square/Round Display in 2x2 arrangement for creative visual interactions
 - DS3231 RTC for real-time capture and control activity With Backup Battery Holder
 - BME280 Sensor for temperature, humidity and pressure monitoring
 - Power and Charging LED for status indication
@@ -35,7 +36,35 @@ This github provides getting started guide for both Round and Square 2x2 Display
 - **RTC Battery Holder**: Supports CR1220 3V Battery 
 - **Operating Temperature Range**: -20°C ~ +70°C
 
+## Getting Started with 2x2 Display with Pico W
+### Pinout
+<img src= "" />
+  
+### Interfacing Details
 
+
+
+
+     
+
+### Example Codes
+   Try reference demo codes to test onboard components of HAT, make sure to save library file to run Serial Servo Motor related codes.
+   - [Display Demo Code](https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/examples/Demo_Display.py) : Visualize onboard display working with sample code
+   - [BME280 Demo Code]() : BME280 sensor to read Temperature, humidity and pressure demo 
+   - [RTC Demo](https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/examples/Demo_Servo_mode.py) : Set and monitor real time clock activity 
+   - [More..]()
+
+   Using this sample code as a guide, you can modify, build, and share codes!!
+   
+## Resources
+  * [Schematic](https://github.com/sbcshop/2x2_Display_PicoW_Hardware/blob/main/Design%20Data/2x2_Display_PicoW_SCH.pdf)
+  * [Hardware Files](https://github.com/sbcshop/2x2_Display_PicoW_Hardware)
+  * [Step File](https://github.com/sbcshop/2x2_Display_PicoW_Hardware/blob/main/Mechanical%20Data/2X2_Display_PicoW.step)
+  * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
+  * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
+  * [Raspberry Pico Datasheet](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/pico-w-datasheet.pdf)
+  * [DS3231 RTC Datasheet](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/ds3231.pdf)
+  * [BME280 Sensor Datasheet](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/BME280-Datasheet.pdf)
 
 
 ## Related Products  
