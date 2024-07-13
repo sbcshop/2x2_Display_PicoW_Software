@@ -100,7 +100,7 @@ This github provides getting started guide for both Round and Square 2x2 Display
      
 
 ### Example Codes
-   Try reference demo codes to test onboard components of HAT, make sure to save library file to run Serial Servo Motor related codes.
+   Try reference demo codes to test onboard components, also make sure to save lib folder into Pico W of board which contains library files.
    - [Display Demo Code]() : Visualize onboard display working with sample code
    - [BME280 Demo Code]() : BME280 sensor to read Temperature, humidity and pressure demo 
    - [RTC Demo]() : Set and monitor real time clock activity 
