@@ -101,10 +101,15 @@ This github provides getting started guide for both Round and Square 2x2 Display
 
 ### Example Codes
    Try reference demo codes to test onboard components, also make sure to save lib folder into Pico W of board which contains library files.
-   - [Display Demo Code]() : Visualize onboard display working with sample code
-   - [BME280 Demo Code]() : BME280 sensor to read Temperature, humidity and pressure demo 
-   - [RTC Demo]() : Set and monitor real time clock activity 
-   - [More..]()
+   - For 1.54" Square Display Variant
+     - [Display Demo Code](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/examples/2x2_Display_PicoW_Square1_54/Demo_4Display.py) : Visualize onboard display working with sample code
+     - [BME280 Sensor](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/examples/2x2_Display_PicoW_Square1_54/Demo_BME280.py) : BME280 sensor to read Temperature, humidity and pressure demo
+     - [More...](https://github.com/sbcshop/2x2_Display_PicoW_Software/tree/main/examples/2x2_Display_PicoW_Square1_54)
+       
+   - For 1.28" Round Display Variant
+     - [Display Image](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/examples/2x2_Display_PicoW_Round1_28/Demo_DisplayImage.py) : Visualize onboard display working with sample code
+     - [RTC Code](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/examples/2x2_Display_PicoW_Round1_28/Demo_RTC_BME280.py) : Set and Read real time clock activity along with temperature, pressure and humidity measure
+     - [More...](https://github.com/sbcshop/2x2_Display_PicoW_Software/tree/main/examples/2x2_Display_PicoW_Round1_28)
 
    Using this sample code as a guide, you can modify, build, and share codes!!
    
