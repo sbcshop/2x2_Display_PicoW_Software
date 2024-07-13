@@ -43,7 +43,7 @@ This github provides getting started guide for both Round and Square 2x2 Display
 ### Interfacing Details
 - Following GPIO pins of Raspberry Pi Pico W is used for onboard components,
   
-  <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/2x2_Display_PicoW_Interfacing.png" width="646" height="351" />
+  <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/2x2_display_picow_hardware_interfacing.png" width="646" height="351" />
 
   **Note:**
   * Backlight pin common for all display
@@ -58,7 +58,7 @@ This github provides getting started guide for both Round and Square 2x2 Display
   
 ### 1. How to Install Boot Firmware in Pico W 
 
-- Every board will be pre-installed with suitable MicroPython firmware with the inbuilt display driver module, so you can skip this step and jump to [**Step 2**](https://github.com/sbcshop/2x2_Display_PicoW_Software/edit/main/README.md#2-running-first-program) for trying Demo Codes.
+- Every board will be pre-installed with suitable MicroPython firmware with the inbuilt display driver module, so you can skip this step and jump to [**Step 2**](https://github.com/sbcshop/2x2_Display_PicoW_Software/tree/main#2-running-first-program) for trying Demo Codes.
 - In any case, you want to add again **MicroPython firmware**. First, you need to *Press and Hold* the boot button on pico W, and then, without releasing the button, connect it to PC/laptop using micro USB cable. Check below image for reference,
   
   <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif" width="340" height="228">
@@ -73,33 +73,31 @@ This github provides getting started guide for both Round and Square 2x2 Display
     
   Drag and drop Firmware file onto the RPI-RP2 volume.
 
-  <img src= "https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/firmware_install.png" width="740" height="463">
+  <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/firmware_install.png" width="740" height="463">
   
 ### 2. Running First Program
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
    - Download this github which contains various examples and open anyone of example in Thonny.
 
-     <img src= "https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/github_download.png" width="748" height="336" />
-
+     <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/github_download.png" width="767" height="386" />
    - Now we have **Thonny IDE application** and github example codes, Connect hardware to laptop/PC. Open any example code in Thonny IDE. Then select micropython device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
 
-     <img src="https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/board_select.png">
+     <img src="https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/select_device.png" width="448" height="196">
   
-   - Make sure to save _**SerialServo.py**_ library file to device to avoid any execution error.
+   - Make sure to save [_**lib**_]() folder which contains dependent library file to device to avoid any execution error.
 
-      <img src= "https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/servo_lib.png" />
+      <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/lib_save.png" />
 
    - Once everything all set, with any demo code open click on green play button to test program.
 
-     <img src= "https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/run_script.png" />
+     <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/run_script.png" />
 
    - For standalone execution save script into Pico as main.py,
 
-     <img src= "https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/main_save.png" />
+     <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/main_save.png" />
 
      Try out below provided reference example demo codes and modify to build your own application codes.
      
-
 
 ### Example Codes
    Try reference demo codes to test onboard components of HAT, make sure to save library file to run Serial Servo Motor related codes.
