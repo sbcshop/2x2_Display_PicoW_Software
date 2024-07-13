@@ -43,7 +43,7 @@ This github provides getting started guide for both Round and Square 2x2 Display
 ### Interfacing Details
 - Following GPIO pins of Raspberry Pi Pico W is used for onboard components,
   
-  <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/2x2_display_picow_hardware_interfacing.png" width="646" height="351" />
+  <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/2x2_display_picow_hardware_interfacing.png" width="754" height="413" />
 
   **Note:**
   * Backlight pin common for all display
