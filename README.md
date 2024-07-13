@@ -84,7 +84,7 @@ This github provides getting started guide for both Round and Square 2x2 Display
 
      <img src="https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/select_device.png" width="448" height="196">
   
-   - Make sure to save [_**lib**_]() folder which contains dependent library file to device to avoid any execution error.
+   - Make sure to save [_**lib**_](https://github.com/sbcshop/2x2_Display_PicoW_Software/tree/main/examples/2x2_Display_PicoW_Round1_28/lib) folder which contains dependent library file to device to avoid any execution error.
 
       <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/lib_save.png" />
 
