@@ -38,13 +38,68 @@ This github provides getting started guide for both Round and Square 2x2 Display
 
 ## Getting Started with 2x2 Display with Pico W
 ### Pinout
-<img src= "https://cdn.shopify.com/s/files/1/1217/2104/files/PICO_PINOUTS.png?v=1720594449" />
+<img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/2x2_display_picow_pinout.png" />
   
 ### Interfacing Details
-Following GPIO pins of Raspberry Pi Pico W is used for onboard components,
+- Following GPIO pins of Raspberry Pi Pico W is used for onboard components,
+  
+  <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/2x2_Display_PicoW_Interfacing.png" width="646" height="351" />
 
+  **Note:**
+  * Backlight pin common for all display
+  
+- _**GPIOs Breakout**_
+  | Pico | Function |
+  |---|---|
+  | 3V3 | Supply 3.3V  |
+  | GP0 | Multipurpose GPIO |
+  | GP1 | Multipurpose GPIO |
+  | GND | Supply Ground |
+  
+### 1. How to Install Boot Firmware in Pico W 
 
+- Every board will be pre-installed with suitable MicroPython firmware with the inbuilt display driver module, so you can skip this step and jump to [**Step 2**](https://github.com/sbcshop/2x2_Display_PicoW_Software/edit/main/README.md#2-running-first-program) for trying Demo Codes.
+- In any case, you want to add again **MicroPython firmware**. First, you need to *Press and Hold* the boot button on pico W, and then, without releasing the button, connect it to PC/laptop using micro USB cable. Check below image for reference,
+  
+  <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif" width="340" height="228">
+
+- Now your device is in boot mode, and you will see a new mass storage device named "RPI-RP2" as shown in the below figure.
+
+  <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>
+
+- Download the relevant MicroPython firmware file provided in this repo above,
+  - For 1.54" Square Variant - ["**_firmware_2x2display_picow_square.uf2_**"](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/firmware_2x2display_picow_square.uf2)
+  - For 1.28" Round Variant - ["**_firmware_2x2display_picow_round.uf2_**"](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/firmware_2x2display_picow_round.uf2)
+    
+  Drag and drop Firmware file onto the RPI-RP2 volume.
+
+  <img src= "https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/firmware_install.png" width="740" height="463">
+  
+### 2. Running First Program
+   - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
+   - Download this github which contains various examples and open anyone of example in Thonny.
+
+     <img src= "https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/github_download.png" width="748" height="336" />
+
+   - Now we have **Thonny IDE application** and github example codes, Connect hardware to laptop/PC. Open any example code in Thonny IDE. Then select micropython device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
+
+     <img src="https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/board_select.png">
+  
+   - Make sure to save _**SerialServo.py**_ library file to device to avoid any execution error.
+
+      <img src= "https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/servo_lib.png" />
+
+   - Once everything all set, with any demo code open click on green play button to test program.
+
+     <img src= "https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/run_script.png" />
+
+   - For standalone execution save script into Pico as main.py,
+
+     <img src= "https://github.com/sbcshop/Serial_Servo_Pico_HAT_Software/blob/main/images/main_save.png" />
+
+     Try out below provided reference example demo codes and modify to build your own application codes.
      
+
 
 ### Example Codes
    Try reference demo codes to test onboard components of HAT, make sure to save library file to run Serial Servo Motor related codes.
