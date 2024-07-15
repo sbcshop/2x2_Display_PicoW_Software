@@ -15,7 +15,7 @@ This github provides getting started guide for both Round and Square 2x2 Display
 - Battery hookup and charging facilities for portability
 - Onboard microSD card compatibility is useful for data logging purposes
 - Multipurpose GPIOs breakout for additional peripheral interfacing
-- Four Programmable Buttons to add additional controls to project 
+- Three Programmable Buttons to add additional controls to project 
 - Buzzer which helps to add audio alert for your project
 
 ### Specifications:
